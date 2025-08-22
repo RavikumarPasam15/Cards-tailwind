@@ -7,38 +7,38 @@ const Cards = () => {
     {
      id: 1,
       image:  "./images/tirupathi.jpg",
-    title: "TIrumala",
-      description: "This is the first card with some details."
+    title: "Tirumala",
+      description: "Abode of Lord Venkateswara.."
     },
     {
       id: 2,
          image: "./images/shiva.jpg",
    title: "Kalahasthi",
-      description: "This is the second card with different content."
+      description: "Famous for Rahu–Ketu pooja.."
     },
     {
       id: 3,
     image: "./images/golden.jpg",
       title: "Golden Temple",
-  description: "This is the third card with a short description."
+  description: "Holiest Sikh shrine, Amritsar.."
     },
     {
       id: 4,
       image: "./images/somnath.jpg",
       title: "Somnath Temple",
-  description: "This is the first card with some details."
+  description: "First Jyotirlinga of Lord Shiva."
     },
     {
       id: 5,
   image: "./images/puri.jpg",
       title: "puri jagannath temple",
-  description: "This is the second card with different content."
+  description: "Renowned for Rath Yatra festival."
     },
     {
       id: 6,
       image: "./images/kasi.jpg",
    title: "kashi vishwanath temple",
-      description: "This is the third card with a short description."
+      description: "Sacred Shiva Jyotirlinga in Varanasi."
     }
   ];
 

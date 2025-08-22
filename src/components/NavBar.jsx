@@ -41,7 +41,6 @@ function Navbar() {
           <Button color="inherit">About</Button>
           <Button color="inherit">Temples</Button>
 
-          {/* Search Box */}
           <Box
             sx={{
               display: "flex",
@@ -57,24 +56,20 @@ function Navbar() {
             <InputBase placeholder="Search…" sx={{ color: "inherit", ml: 1 }} />
           </Box>
 
-          {/* Push rest of items to right */}
           <Box sx={{ flexGrow: 1 }}></Box>
 
-          {/* Mail */}
           <IconButton color="inherit">
             <Badge badgeContent={4} color="error">
               <MailIcon />
             </Badge>
           </IconButton>
 
-          {/* Notifications */}
           <IconButton color="inherit">
             <Badge badgeContent={10} color="error">
               <NotificationsIcon />
             </Badge>
           </IconButton>
 
-          {/* Avatar Menu */}
           <IconButton color="inherit" onClick={handleMenuOpen}>
             <Avatar
               alt="User"
@@ -85,7 +80,6 @@ function Navbar() {
         </Toolbar>
       </AppBar>
 
-      {/* Dropdown Menu */}
       <Menu
         anchorEl={anchorEl}
         open={Boolean(anchorEl)}
